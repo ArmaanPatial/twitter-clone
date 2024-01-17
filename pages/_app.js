@@ -8,8 +8,8 @@ TimeAgo.addDefaultLocale(en);
 
 
 function MyApp({
-   Component,
-   pageProps: { session, ...pageProps },
+  Component,
+  pageProps: { session, ...pageProps },
 }) {
   return (
     <SessionProvider session={session}>
